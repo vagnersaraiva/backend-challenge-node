@@ -52,7 +52,7 @@ This README would normally document whatever steps are necessary to get your app
 - Other community or team contact
 - All changes on files is refreshed in docker-compose context.
 
-Apllication run in `http://localhost:3000` or EXPRESS_PORT environment variable
+Apllication run in `http://localhost:3000`, with `/api` to [swagger](https://swagger.io/specification/) or EXPRESS_PORT environment variable
 
 # Lint
 
@@ -89,3 +89,7 @@ yarn test:e2e
 ```shell
 yarn test:cov
 ```
+
+# DB
+
+This application is using [MongoDB](https://www.mongodb.com/), and for that an account was created and access to the file `.env` was included.
